@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 5px
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #2a5885;
+}
+
+body{
+    background-color: #edeef0;
+}
+
+.header-top{
+    background-color: #fff;
+    border-bottom: 1px #dcdcdc;
+}
+
+.header-top .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-top .right a{
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.header-top:hover .right:hover{
+    background-color: #eaeaea;
+}
+
+.header-top .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search{
+    margin-left: 25px;
+    background-color: #edeef0;
+    border: 0 solid white;
+    position: relative;
+}
+
+.input{
+    padding: 7px 18px 7px 5px;
+    background-color: #edeef0;
+    border: 0 solid white;
+    position: relative;
+}
+
+.search::before{
+    content: url("/VKge/magnifier_icon.svg");
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+.container{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 18px 0 36px 0;
+}
+
+.center > .left {
+    width: 550px;
+}
+
+.center > .right{
+    width: 330px;
+}
+
+.header-center-login-text{
+    color: black;
+    margin: 10px 0;
+}
+
+.header-information-text{
+    color: #797979;
+}
+
+.devices{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.Android {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #2a5885;
+}
+
+.devices-ios-text:hover{
+    background-color: #e8e8e8;
+    text-decoration: underline;
+    padding: 10px 30px;
+}
+
+.IOS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -7%;
+    text-decoration: none;
+    color: #2a5885;
+}
+
+.devices-android-text:hover{
+    background-color: #e8e8e8;
+    text-decoration: underline;
+    padding: 10px 30px;
+}
+
+.mobile.buttons{
+    margin-top: 16px;
+    padding: 7px 16px 8px;
+}
+
+.rest{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #2a5885;
+    position: relative;
+}
+
+.rest::after{
+    content: "";
+    background: url("/VKge/login_all_products_arrow.svg");
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    margin-top: 7px;
+    transition-property: padding-left;
+    transition-duration: 0.3s;
+    margin-left: 2px;
+}
+
+.rest:hover::after{
+    margin-left: 4px;
+}
+
+.rest:hover{
+    text-decoration: underline;
+}
+
+.center > .right .box{
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    color: #707070;
+}
+
+.center > .left .box{
+    align-items: center;
+}
+
+.center .input{
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e8e8e8;
+}
+
+.login-buttons-left{
+    width: 35%;
+}
+
+.login-buttons-right{
+    width: 60%;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #707070;
+    margin-bottom: 15px;
+}
+
+.text3{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+    color: #707070;
+}
+
+.registration-box{
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.agreement > a{
+    color: #707070;
+    font-size: 15px;
+}
+
+.agreement:hover a:hover{
+    text-decoration: underline;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-size: 15px;
+}
+
+.button{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.blue{
+    background-color: #2a5885;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.blue:hover{
+    background-color: #3071ab;
+}
+
+.blue:active{
+    background-color: #3071ab;
+    padding: 12px 30px 8px 30px;
+}
+
+.white{
+    margin-left: 10px;
+}
+
+.white:hover{
+    text-decoration: underline;
+}
+
+.green{
+    background-color: #4bb34b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.green:hover{
+    background-color: #019a01;
+}
+
+.green:active{
+    background-color: #019a01;
+    padding: 12px 30px 8px 30px;
+}
+
+.more{
+    text-decoration: none;
+    color: #2a5885;
+}
+
+.more:hover{
+    text-decoration: underline;
+}
+
+
+.header-bottom{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.header-bottom:hover a:hover{
+    text-decoration: underline;
+}
+
+.header-bottom-left{
+    color: #707070;
+}
+
+.bnav{
+    padding: 2px 5px;
+}
